@@ -10,11 +10,6 @@ import braces.server.fields.SpaceMarine;
 
 public class DataBaseCommmunicator {
 
-	// on helios
-	// private static final String DB_URL = "jdbc:postgresql://pg:5432/studs";
-
-	// on local PC
-	private static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/postgres";
 
 	private static Connection connection;
 	private static SpaceMarineDB spaceMarineDB;
